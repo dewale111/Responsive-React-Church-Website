@@ -1,0 +1,74 @@
+.WorkforceContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+    flex-direction: column;
+}
+.WorkforceContainer .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    padding: 20px;
+}
+
+.WorkforceContainer .row .Wfull{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 6px 6px 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.WorkforceContainer .row .Wfull .unitImage{
+   background: url(./vector2.webp);
+   background-position: center;
+   background-size: 400px;
+   position: inherit;
+   height: 15rem;
+   width: 20rem;
+}
+
+.WorkforceContainer .row .Wfull .unit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.unit>:nth-child(1){
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.unit>:nth-child(2){
+    height: 36px;
+    width: 90px;
+    border: 1px solid purple;
+    color: purple;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.unit>:nth-child(2):hover{
+    background-color: purple;
+    border: 1px solid purple;
+    color: white;    
+}
+
+@media screen and (max-width: 768px) {
+    .WorkforceContainer .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6rem;
+        padding: 20px;
+        flex-direction: column;
+    }
+}

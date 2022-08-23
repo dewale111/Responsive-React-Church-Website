@@ -1,0 +1,102 @@
+.QuoteContainer{
+    display: flex;
+    gap: 2rem;
+    padding: 0 4rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background: linear-gradient(to right, #abbaab, #2f4b5f);
+    
+
+}
+.leftQ{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    gap: 2rem;
+    flex: 1;
+}
+.leftQ>:nth-child(1){
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.leftQ>:nth-child(3){
+    text-transform: none;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-align: justify;
+    color: white;
+}
+
+.rightQ{
+    flex: 1;
+    position: relative;
+    
+    
+}
+.rightQ .imagefull{
+    position: relative;
+    margin-left: 4rem;
+}
+.rightQ .imagefull>:nth-child(1){
+    position: absolute;
+    height: 16rem;
+    width: 14rem;
+    top: 1.5rem;
+    right: 7.5rem;
+    border: 1px solid white;
+}
+
+.rightQ .imagefull>:nth-child(2){
+    position: absolute;
+    height: 16rem;
+    width: 14rem;
+    top: 2.5rem;
+    right: 8.5rem;
+    border: 1px solid white;
+}
+.rightQ .imagefull>img{
+    position: absolute;
+    height: 16rem;
+    width: 14rem;
+    right: 8rem;
+    top: 2rem;
+}
+
+.arrow{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+.arrow>.leftArrow{
+    cursor: pointer;
+}
+.arrow>.rightArrow{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .QuoteContainer{
+        flex-direction: column;
+        height: 110vh;
+    }
+    .rightQ{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .rightQ .imagefull{
+        position: relative;
+    }
+    .rightQ .arrow{
+        position: relative;
+    }
+}
