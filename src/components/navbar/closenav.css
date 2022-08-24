@@ -4,11 +4,12 @@
   text-align: center;
   flex-flow: row nowrap;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .closeNavContainer{
   animation: slideIn .3s ease-in-out ;
-  
+  overflow: hidden;
 
 }
 @keyframes slideIn{

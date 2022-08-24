@@ -16,6 +16,7 @@
     animation-iteration-count: 200000;
     animation-timing-function: linear;
     animation-delay: 4s;
+    overflow: hidden;
     
 }
 
