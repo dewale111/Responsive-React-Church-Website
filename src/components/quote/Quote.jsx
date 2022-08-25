@@ -39,7 +39,7 @@ const Quote = () => {
                         <span style={{color: 'white'}}>
                             {QuoteData[selected].name}
                         </span>
-                        {" "}-{QuoteData[selected].position}
+                        <span style = {{color: 'purple'}}>{" "}-{QuoteData[selected].position}</span>
                     </span>
                 </div>
                 <div className="rightQ">

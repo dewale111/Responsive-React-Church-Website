@@ -1,12 +1,14 @@
-.WorkforceContainer{
+.WorkforceContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
     padding: 20px;
     flex-direction: column;
+    overflow: hidden;
 }
-.WorkforceContainer .row{
+
+.WorkforceContainer .row {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,36 +16,79 @@
     padding: 20px;
 }
 
-.WorkforceContainer .row .Wfull{
-    height: 20rem;
-    width: 20rem;
-    border-radius: 50%;
+.WorkforceContainer .row .Wfull {
+    height: 22rem;
+    width: 15rem;
+    border-radius: 1rem;
     border: 1px solid black;
     box-shadow: 6px 6px 30px;
     position: relative;
     overflow: hidden;
 }
 
-.WorkforceContainer .row .Wfull .unitImage{
-   background: url(./vector2.webp);
-   background-position: center;
-   background-size: 400px;
-   position: inherit;
-   height: 15rem;
-   width: 20rem;
+.WorkforceContainer .row .Wfull .unitImage {
+    position: inherit;
+    height: 15rem;
+    width: 20rem;
+    border-bottom: 5px solid purple;
 }
 
-.WorkforceContainer .row .Wfull .unit{
+#training {
+    background: url(./training2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 320px;
+}
+
+#admin {
+    background: url(./admin.webp);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+#outreach {
+    background: url(./outreach.webp);
+    background-position: 75% 50%;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+#worship {
+    background: url(./vector2.webp);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+#membership {
+    background: url(./membership.webp);
+    background-position: 70% 50%;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+#missions {
+    background: url(./missions.webp);
+    background-position: 80% 70%;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+.WorkforceContainer .row .Wfull .unit {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    gap: 5px;
 }
-.unit>:nth-child(1){
+
+.unit>:nth-child(1) {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
+    font-weight: 200;
+    font-size: 1.5rem;
 }
-.unit>:nth-child(2){
+
+.unit>:nth-child(2) {
     height: 36px;
     width: 90px;
     border: 1px solid purple;
@@ -53,22 +98,26 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 1s;
-    
+
 }
 
-.unit>:nth-child(2):hover{
+.unit>:nth-child(2):hover {
     background-color: purple;
     border: 1px solid purple;
-    color: white;    
+    color: white;
 }
 
 @media screen and (max-width: 768px) {
-    .WorkforceContainer .row{
+    .WorkforceContainer .row {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 6rem;
+        gap: 3rem;
         padding: 20px;
         flex-direction: column;
+    }
+    .WorkforceContainer .row .Wfull{
+        height: 20rem;
+        width: 20rem;
     }
 }

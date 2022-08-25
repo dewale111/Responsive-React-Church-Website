@@ -4,7 +4,9 @@
     padding: 0 4rem;
     padding-top: 10rem;
     padding-bottom: 10rem;
-    background: linear-gradient(to right, #abbaab, #2f4b5f);
+    background-color: hwb(0 0% 100% / 0.918);
+    border-top: 5px solid purple;
+    border-bottom: 5px solid purple;
     
 
 }
@@ -17,9 +19,9 @@
 }
 .leftQ>:nth-child(1){
     color: white;
-    font-weight: bold;
+    font-weight: 200;
     font-size: 2rem;
-    color: transparent;
+    color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
 }
