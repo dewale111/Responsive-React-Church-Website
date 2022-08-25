@@ -11,6 +11,8 @@
   }
   .mailInputContainer{
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .mailInputContainer>input{
@@ -37,4 +39,14 @@
   .mailInputContainer>button:hover{
     background-color: white;
     color:#192c3a ;
+  }
+
+  @media screen and (max-width: 768px) {
+    .mailInputContainer{
+      gap: 4px;
+      flex-direction: column;
+    }   
+    .mailInputContainer>button{
+      width: 70px;
+    } 
   }

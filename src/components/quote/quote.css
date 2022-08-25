@@ -84,19 +84,28 @@
 }
 
 @media screen and (max-width: 800px) {
+    .leftQ{
+        gap: 1rem;
+    }
     .QuoteContainer{
         flex-direction: column;
-        height: 110vh;
+        height: 100vh;
+        gap: 0;
     }
     .rightQ{
-        display: flex;
+        display: flex;        
         flex-direction: column;
         position: relative;
+        gap: 1rem;
     }
     .rightQ .imagefull{
         position: relative;
+        right: -4rem;
     }
     .rightQ .arrow{
         position: relative;
+        top: 19rem;
+        left: 8rem;
+        width: 100px;
     }
 }
