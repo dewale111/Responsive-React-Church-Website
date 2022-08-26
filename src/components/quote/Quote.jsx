@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './quote.css'
 import { QuoteData } from './QuoteData'
-import { FaAngleLeft, FaAngleRight, FaQuoteLeft, FaQuoteRight } from 'react-icons/fa'
+import { FaAngleLeft, FaAngleRight, FaQuoteLeft, FaQuoteRight} from 'react-icons/fa'
 import {motion} from 'framer-motion'
 
 
@@ -39,7 +39,7 @@ const Quote = () => {
                         <span style={{color: 'white'}}>
                             {QuoteData[selected].name}
                         </span>
-                        <span style = {{color: 'purple'}}>{" "}-{QuoteData[selected].position}</span>
+                        <span style = {{color: 'purple', fontWeight:"700"}}>{" "}-{QuoteData[selected].position}</span>
                     </span>
                 </div>
                 <div className="rightQ">

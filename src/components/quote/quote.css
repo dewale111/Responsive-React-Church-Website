@@ -1,12 +1,11 @@
 .QuoteContainer{
+    margin: 50px;
     display: flex;
     gap: 2rem;
     padding: 0 4rem;
     padding-top: 10rem;
     padding-bottom: 10rem;
-    background: hwb(0 0% 100% / 0.918);
-    border-top: 5px solid purple;
-    border-bottom: 5px solid purple;
+    background: linear-gradient(white, rgb(172, 148, 192), rgb(178, 184, 124), rgb(172, 148, 192), white);
     
 
 }
@@ -75,7 +74,7 @@
     position: absolute;
     bottom: 1rem;
     left: 3rem;
-    color: rgb(255, 255, 255);
+    color: rgb(172, 105, 157);
 }
 
 .arrow>.leftArrow{
