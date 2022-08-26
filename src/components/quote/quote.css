@@ -4,7 +4,7 @@
     padding: 0 4rem;
     padding-top: 10rem;
     padding-bottom: 10rem;
-    background-color: hwb(0 0% 100% / 0.918);
+    background: hwb(0 0% 100% / 0.918);
     border-top: 5px solid purple;
     border-bottom: 5px solid purple;
     
