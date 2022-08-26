@@ -1,5 +1,5 @@
 .QuoteContainer{
-    margin: 50px;
+    margin: 38px;
     display: flex;
     gap: 2rem;
     padding: 0 4rem;
@@ -101,7 +101,7 @@
     }
     .rightQ .imagefull{
         position: relative;
-        right: -4rem;
+        right: -6.5rem;
     }
     .rightQ .arrow{
         position: relative;
