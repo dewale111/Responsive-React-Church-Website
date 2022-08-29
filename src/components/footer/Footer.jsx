@@ -15,7 +15,7 @@ const Footer = () => {
         </ul>
         <ul className="fList">
           <h1>Quick Links</h1>
-          <li className="fListItem">About Us</li>
+          <li href="/aboutus" className="fListItem">About Us</li>
           <li className="fListItem">Join the living force</li>
           <li className="fListItem">Men of Significance</li>
           <li className="fListItem">Women of Worth</li>

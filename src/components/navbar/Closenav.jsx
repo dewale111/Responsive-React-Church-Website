@@ -15,9 +15,9 @@ const Closenav = (props) => {
                 size="32px"/>}
         </div>
         <div className="closeNavLinks">
-          <a onClick={() =>props.isMobile && props.closeMobileMenu()} className="waw" href="#cursor">WHO ARE WE?</a>
+          <a onClick={() =>props.isMobile && props.closeMobileMenu()} className="waw" href="/aboutus">WHO ARE WE?</a>
           <a onClick={() =>props.isMobile && props.closeMobileMenu()} className="cont" href="#subscribe">CONTACT US</a>
-          <a onClick={() =>props.isMobile && props.closeMobileMenu()} className="gall" href="#cursor">GALLERY</a>
+          <a onClick={() =>props.isMobile && props.closeMobileMenu()} className="gall" href="/gallery">GALLERY</a>
           <a onClick={() =>props.isMobile && props.closeMobileMenu()} className="jlf" href="#cursor">MESSAGES</a>
           <a onClick={() =>props.isMobile && props.closeMobileMenu()} className="prq" href="#cursor">PRAYER REQUESTS</a>
           <a onClick={() =>props.isMobile && props.closeMobileMenu()} className="jlf" href="#cursor">JOIN THE LIVING FORCE</a>

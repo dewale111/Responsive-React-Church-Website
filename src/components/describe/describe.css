@@ -6,7 +6,21 @@
     padding: 30px;
     overflow-x: hidden;
 }
-
+.newfull1{
+    background-color: purple;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+.newfull2{
+    background-color: rgb(35, 196, 134);
+    padding-top: 7px;
+    padding-left: 7px;
+}
+.newfull3{
+    background-color: rgb(8, 134, 143);
+    padding-top: 7px;
+    padding-left: 7px;
+}
 .first{
     background: url(https://images.unsplash.com/photo-1525026198548-4baa812f1183?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=734&q=80);
 }
@@ -23,10 +37,11 @@
 
 .third{
     background: url(https://images.unsplash.com/photo-1602771706769-04b738b784d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVhZCUyMHdvcmQlMjBvZiUyMGdvZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60); 
+    background-size: cover;
 }
 
 .third:hover{
-    background-size: 70vh;
+    background-size: 90vh;
 }
 .first img{
     color: white;
@@ -61,7 +76,7 @@
 #ease{
     transition: 1s;
     background-position: center;
-    height: 16rem;
+    height: 23rem;
     width: 19rem;
     display: flex;
     flex-direction: column;

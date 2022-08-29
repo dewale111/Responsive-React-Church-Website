@@ -6,6 +6,7 @@ const Describe = () => {
     return (
         <>
             <div className="DescribeContainer">
+                <div className='newfull1'>
                 <div className="full">
                     <div className="first" id="ease">
                         {<MdCheckCircleOutline
@@ -15,6 +16,8 @@ const Describe = () => {
 
                     </div>
                 </div>
+                </div>
+                <div className='newfull2'>
                 <div className="full">
                     <div className="second" id="ease">
                         {<MdCheckCircleOutline
@@ -24,6 +27,8 @@ const Describe = () => {
 
                     </div>
                 </div>
+                </div>
+                <div className="newfull3">
                 <div className="full">
                     <div className="third" id="ease">
                         {<MdCheckCircleOutline
@@ -32,6 +37,7 @@ const Describe = () => {
                         <button className="btn">Listen to Messages</button>
 
                     </div>
+                </div>
                 </div>
             </div>
         </>

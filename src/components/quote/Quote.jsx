@@ -54,6 +54,7 @@ const Quote = () => {
                         transition={{...transition, type:'tween'}}
                         className="stay"></motion.div>
                         <motion.img 
+                        className='pimage'
                         key={selected}
                         initial={{opacity: 0, x: 100}}
                         whileInView={{opacity: 1, x: 0}}
