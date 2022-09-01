@@ -7,13 +7,30 @@
     flex-direction: column;
     overflow: hidden;
 }
-
+.WorkforceContainer .intro{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem;
+}
+.WorkforceContainer .intro>:nth-child(1){
+    color: purple;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.WorkforceContainer .intro>:nth-child(2){
+    padding-left: 50px;
+    padding-right: 20px;
+    letter-spacing: 2px;
+    border-right: 4px solid purple;
+}
 .WorkforceContainer .row {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 6rem;
     padding: 20px;
+    border-left: 4px solid purple;
 }
 
 .WorkforceContainer .row .Wfull {

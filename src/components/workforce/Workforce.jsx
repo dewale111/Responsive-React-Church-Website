@@ -5,7 +5,10 @@ const Workforce = () => {
     return (
         <>
             <div className="WorkforceContainer">
-                <h1>See what God can accomplish through you</h1>
+                <div className="intro">
+                    <h1>Are you ready to make IMPACT?</h1>
+                    <p>Here's the place for you, Join any of the following directorates as you kickstart your journey to becoming a person of positive influence.</p>
+                </div>
                 <div className="wrap">
                 <div className="row">
                     <div className="Wfull">
