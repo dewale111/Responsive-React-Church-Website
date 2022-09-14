@@ -1,4 +1,5 @@
 .QuoteContainer{
+    align-self: center;
     margin: 38px;
     display: flex;
     gap: 2rem;
@@ -6,6 +7,7 @@
     padding-top: 10rem;
     padding-bottom: 10rem;
     background: linear-gradient(white, rgb(172, 148, 192), rgb(172, 148, 192), white);
+    overflow: hidden;
 
 }
 .leftQ{
