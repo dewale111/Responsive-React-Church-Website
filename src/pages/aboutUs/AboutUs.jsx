@@ -4,7 +4,12 @@ import './aboutUs.css'
 import Subscribe from '../../components/subscribe/Subscribe';
 import YoutubeEmbed from '../../components/YouTubeEmbed/YouTubeEmbed';
 import fun from './fun.jpg'
+import pmike from './Temp.jpg'
+import tfc from './Temp2.jpg'
 import vector from './vector.png'
+import dapo from './Temp4.jpg'
+import ebere from './Temp5.jpg'
+import modupe from './Temp7.jpg'
 
 const AboutUs = () => {
     return (
@@ -83,57 +88,57 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div className="leadership">
-                    <h1>Meet Our <span style={{ color: 'purple', fontWeight:'bold' }}>Leadership</span></h1>
+                    <h1>Meet Our <span style={{ color: 'purple', fontWeight:'500' }}>Leadership</span></h1>
                     <div className="people">
                         <div className="person">
-                            <img src={vector} alt="" />
+                            <img src={pmike} alt="" />
                             <span>Michael Oyin-Akinyilade</span>
-                            <span style={{ color: 'purple', fontWeight:'bold' }}>Lead Pasor</span>
+                            <span style={{ color: 'purple', fontWeight:'500' }}>Lead Pastor</span>
                         </div>
                         <div className="person">
-                        <img src={vector} alt="" />
+                        <img src={tfc} alt="" />
                             <span>Funmilayo Coker</span>
-                            <span style={{ color: 'purple', fontWeight:'bold' }}>Associate Pasor</span>
+                            <span style={{ color: 'purple', fontWeight:'500' }}>Associate Pastor</span>
                         </div>
                         <div className="person">
                         <img src={vector} alt="" />
                             <span>Oludamiwa Olusanya</span>
-                            <span style={{ color: 'purple', fontWeight:'bold' }}>Director of Training</span>
+                            <span style={{ color: 'purple', fontWeight:'500' }}>Director of Training</span>
                         </div>
                         <div className="person">
-                        <img src={vector} alt="" />
+                        <img src={dapo} alt="" />
                             <span>Oladapo Kadeba</span>
-                            <span style={{ color: 'purple', fontWeight:'bold' }}>Director of Outreach</span>
+                            <span style={{ color: 'purple', fontWeight:'500' }}>Director of Outreach</span>
                         </div>
                         <div className="person">
-                        <img src={vector} alt="" />
+                        <img src={ebere} alt="" />
                             <span>Ebere Frederick</span>
-                            <span style={{ color: 'purple', fontWeight:'bold' }}>Director of Membership</span>
+                            <span style={{ color: 'purple', fontWeight:'500' }}>Director of Membership</span>
                         </div>
                         <div className="person">
                         <img src={vector} alt="" />
                             <span>Timilehin Orotoye</span>
-                            <span style={{ color: 'purple', fontWeight:'bold' }}>Director of Administration</span>
+                            <span style={{ color: 'purple', fontWeight:'500' }}>Director of Administration</span>
                         </div>
                         <div className="person">
-                        <img src={vector} alt="" />
+                        <img src={modupe} alt="" />
                             <span>Modupe Bello</span>
-                            <span style={{ color: 'purple', fontWeight:'bold' }}>Director of Worship</span>
+                            <span style={{ color: 'purple', fontWeight:'500' }}>Director of Worship</span>
                         </div>
                         <div className="person">
                         <img src={vector} alt="" />
                             <span>Adewale Adekunle</span>
-                            <span style={{ color: 'purple', fontWeight:'bold' }}>Minister of Missions</span>
+                            <span style={{ color: 'purple', fontWeight:'500' }}>Minister of Missions</span>
                         </div>
                         <div className="person">
                         <img src={vector} alt="" />
                             <span>Priscilla Badmus</span>
-                            <span style={{ color: 'purple', fontWeight:'bold' }}>Secretary</span>
+                            <span style={{ color: 'purple', fontWeight:'500' }}>Secretary</span>
                         </div>
                         <div className="person">
                         <img src={vector} alt="" />
                             <span>Temitope</span>
-                            <span style={{ color: 'purple', fontWeight:'bold' }}>Secretary</span>
+                            <span style={{ color: 'purple', fontWeight:'500' }}>Secretary</span>
                         </div>
                     </div>
                 </div>

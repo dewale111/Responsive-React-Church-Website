@@ -26,7 +26,7 @@ const Quote = () => {
                 <div className="leftQ">
                     <span className="nuggets">Nuggets from our Pastors</span>
 
-                    <span>{<FaQuoteLeft size={30} color={'white'}/>}</span>
+                    <span>{<FaQuoteLeft size={30} color={'#192c3a'}/>}</span>
                     <motion.span
                     key={selected}
                     initial={{opacity: 0, x: -100}}
@@ -34,9 +34,9 @@ const Quote = () => {
                     transition={{...transition, type:'tween'}}
                     exit={{opacity: 0, x: 100}} 
                     className='quote'>{QuoteData[selected].quote}</motion.span>
-                    <span>{<FaQuoteRight size={30} color={'white'}/>}</span>
+                    <span>{<FaQuoteRight size={30} color={'#192c3a'}/>}</span>
                     <span className="name">
-                        <span style={{color: 'white'}}>
+                        <span style={{color: '#192c3a'}}>
                             {QuoteData[selected].name}
                         </span>
                         <span style = {{color: 'purple', fontWeight:"700"}}>{" "}-{QuoteData[selected].position}</span>

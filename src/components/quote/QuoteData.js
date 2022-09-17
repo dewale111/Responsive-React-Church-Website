@@ -1,5 +1,7 @@
 import image1 from './vector.png'
-import pmike from './pmike.jpg'
+import pmike from './Temp.jpg'
+import tfc from './Temp2.jpg'
+
 
 export const QuoteData = [
     {
@@ -10,7 +12,7 @@ export const QuoteData = [
     },
 
     {
-        img: image1,
+        img: tfc,
         quote: "The name of Jesus is a location, the righteous runs into it and are saved",
         name: 'Funmilayo Coker',
         position: 'Associate Pastor'

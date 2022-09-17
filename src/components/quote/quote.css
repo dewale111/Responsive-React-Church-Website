@@ -6,7 +6,7 @@
     padding: 0 4rem;
     padding-top: 10rem;
     padding-bottom: 10rem;
-    background: linear-gradient(white, rgb(172, 148, 192), rgb(172, 148, 192), white);
+    box-shadow: 1px 1px 10px;
     overflow: hidden;
 
 }
@@ -18,20 +18,39 @@
     flex: 1;
 }
 .leftQ>:nth-child(1){
-    color: white;
+    color: #192c3a;
     font-weight: 200;
     font-size: 2rem;
-    color: white;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: #192c3a;
 }
+.leftQ>:nth-child(1)::after{
+    content: '';
+    height: 3px;
+    width: 7rem;
+    display: block;
+    background-color: purple;
+    justify-self: center;
+    position: relative;
+    left: 4rem;
+    transition: 0.5s ease;
+    opacity: 0;
+    transform: scaleX(0);
+}
+.leftQ>:nth-child(1):hover::after{
+    opacity: 1;
+    transform: scaleX(1.8);
+}
+
+
+
 
 .leftQ>:nth-child(3){
     text-transform: none;
     letter-spacing: 2px;
     line-height: 40px;
     text-align: justify;
-    color: white;
+    color: #192c3a;
 }
 
 .rightQ{
@@ -51,7 +70,7 @@
     width: 14rem;
     top: 1.5rem;
     right: 7.5rem;
-    border: 1px solid white;
+    border: 1px solid #192c3a;
 }
 
 .rightQ .imagefull>:nth-child(2){
@@ -60,7 +79,7 @@
     width: 14rem;
     top: 2.5rem;
     right: 8.5rem;
-    border: 1px solid white;
+    border: 1px solid #192c3a;
 }
 .rightQ .imagefull>img{
     position: absolute;

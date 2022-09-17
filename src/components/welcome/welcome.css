@@ -25,12 +25,14 @@
     top: 1rem;
 }
 .wbody .welcomebody{
+    font-weight: 20;
     padding-top: 3rem;
     margin-left: 6rem;
     margin-right: 6rem; 
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1.5rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 .wbody>:nth-child(3){
