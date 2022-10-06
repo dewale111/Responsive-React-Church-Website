@@ -81,6 +81,8 @@
 }
 
 #ease{
+    transition: .5s ease;
+    transform: scale(1);
     background-position: center;
     height: 23rem;
     width: 19rem;
@@ -92,10 +94,13 @@
     border-bottom-right-radius: 1rem;
     gap: 2rem;
     position: relative;
-    
+    box-shadow: 1px 1px 3px;
     
 }
-
+#ease:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px;
+}
 
 
 
