@@ -1,9 +1,9 @@
-import './messages.css'
+import './sra.css'
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer';
 import Subscribe from '../../components/subscribe/Subscribe';
 
-const Messages = () => {
+const Sra = () => {
     return(
         <>
         <div className="mcontainer">
@@ -18,4 +18,4 @@ const Messages = () => {
     )
 };
 
-export default Messages;
+export default Sra;

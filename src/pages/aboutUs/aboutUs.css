@@ -89,7 +89,10 @@
     width: 40%;
     font-size: small;
     letter-spacing: 2px;
-    
+    font-weight: 80;
+    color: rgb(65, 58, 58, 0.8);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
 
 }
 .content>:nth-child(2){
@@ -167,6 +170,7 @@
     min-width: 12rem;
     letter-spacing: 8px;
     flex: 3;
+    clip-path: polygon(50% 13%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
     
 }
 
@@ -192,6 +196,7 @@
     min-width: 12rem;
     letter-spacing: 10px;
     flex: 3;
+    clip-path: polygon(50% 0, 100% 34%, 100% 100%, 50% 84%, 0 100%, 0 34%);
     
 }
 .core{
@@ -253,7 +258,9 @@
     gap: 2rem;
     padding: 2rem;
     overflow: hidden;
+    border-top: 1px solid rgba(0,0,0,0.2);
 }
+
 .people{
     display: grid;
     gap: 4rem;
@@ -276,7 +283,7 @@
     width: 100%;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1300px) {
     .values { 
         grid-template-columns: repeat(3, 1fr); 
     }
@@ -285,7 +292,18 @@
     }
   }
 
-@media (min-width: 600px) and (max-width: 899px) {
+@media (min-width: 900px) and (max-width: 1300px){
+    .values { 
+        grid-template-columns: repeat(3, 1fr); 
+    }
+    .people{
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+
+
+@media (min-width: 600px) and (max-width: 900px) {
     .values { 
         grid-template-columns: repeat(2, 1fr); 
     }
@@ -325,5 +343,10 @@
     }
     .content>:nth-child(2){
         width: 100%;
+    }
+    .Aheader {
+        background-image: linear-gradient(to right, rgb(89, 15, 104),rgb(89, 15, 104), rgba(100, 41, 105, 0),rgb(89, 15, 104),rgb(89, 15, 104)),url('./dapo.CR2.jpg');
+        background-position: 40% 35%;
+        
     }
   }

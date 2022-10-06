@@ -7,37 +7,44 @@
     overflow-x: hidden;
 }
 .newfull1{
-    background-color: purple;
+    
     padding-top: 7px;
     padding-left: 7px;
+    border-radius: 4px;
 }
 .newfull2{
-    background-color: rgb(35, 196, 134);
+    
     padding-top: 7px;
     padding-left: 7px;
+    border-radius: 4px;
 }
 .newfull3{
-    background-color: rgb(8, 134, 143);
+    
     padding-top: 7px;
     padding-left: 7px;
+    border-radius: 4px;
 }
 .first{
-    background: url(https://images.unsplash.com/photo-1525026198548-4baa812f1183?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=734&q=80);
+    background-image: linear-gradient(rgba(40, 40, 40, 0.8),rgba(40, 40, 40, 0.8)),url(https://images.unsplash.com/photo-1525026198548-4baa812f1183?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=734&q=80);
+    
+    transition: .5s ease;
 }
 .first:hover{
     background-size: 130vh;
 }
 
 .second{
-    background: url(https://images.unsplash.com/photo-1579975096649-e773152b04cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-image: linear-gradient(rgba(40, 40, 40, 0.8),rgba(40, 40, 40, 0.8)),url(https://images.unsplash.com/photo-1579975096649-e773152b04cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    transition: .5s ease;
 }
 .second:hover{
     background-size: 150vh;
 }
 
 .third{
-    background: url(https://images.unsplash.com/photo-1602771706769-04b738b784d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVhZCUyMHdvcmQlMjBvZiUyMGdvZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60); 
+    background-image: linear-gradient(rgba(40, 40, 40, 0.8),rgba(40, 40, 40, 0.8)),url(https://images.unsplash.com/photo-1602771706769-04b738b784d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVhZCUyMHdvcmQlMjBvZiUyMGdvZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60); 
     background-size: cover;
+    transition: .5s ease;
 }
 
 .third:hover{
@@ -61,9 +68,9 @@
     border-radius: 3px;
     cursor: pointer;
     transition: 0.7s;
-    background-color: white;
-    color: #192c3a;
-    border: 1px solid #192c3a;
+    background-color: #2BA891;
+    color: white;
+    border: 1px solid #2BA891;
     
 }
 
@@ -74,7 +81,6 @@
 }
 
 #ease{
-    transition: 1s;
     background-position: center;
     height: 23rem;
     width: 19rem;
@@ -87,11 +93,10 @@
     gap: 2rem;
     position: relative;
     
+    
 }
 
-#ease:hover{
-    opacity: 0.7;
-}
+
 
 
 

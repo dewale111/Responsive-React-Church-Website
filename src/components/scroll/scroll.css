@@ -1,0 +1,15 @@
+.scrollButton{
+    display: flex;
+    position: fixed;
+    right: 2%;
+    bottom: 15%;
+    height: fit-content;
+    font-size: 2rem;
+    z-index: 1;
+    cursor: pointer;
+    color: #3a3b3c;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px;
+    
+}

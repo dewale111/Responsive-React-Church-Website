@@ -10,10 +10,13 @@ import vector from './vector.png'
 import dapo from './Temp4.jpg'
 import ebere from './Temp5.jpg'
 import modupe from './Temp7.jpg'
+import Scroll from '../../components/scroll/Scroll';
 
 const AboutUs = () => {
     return (
         <>
+
+            <Scroll/>
             <div className="navvv">
                 <Navbar />
             </div>

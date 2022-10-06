@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaQuoteLeft, FaQuoteRight, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaQuoteLeft, FaYoutube } from 'react-icons/fa';
 import { BsTwitter } from "react-icons/bs";
 import './welcome.css'
 import {motion} from 'framer-motion'
@@ -13,7 +13,7 @@ const Welcome = () => {
             <div className="wbody">
                 <span>{<FaQuoteLeft size={30} color={'purple'} />}</span>
                 <div className="welcomebody">This is Livingword fellowship, we have a mandate by God to raise impactful individuals in today's generation and generations to come and we have been committed to this mission for over 25 years. Join Us today and see the Giant in you find expression. We also encourage you to engage our social media via the following links</div>
-                <span>{<FaQuoteRight size={30} color={'purple'} />}</span>
+                
             </div>
             <motion.div 
             transition={transition}

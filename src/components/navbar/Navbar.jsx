@@ -6,11 +6,13 @@ const Navbar = () => {
   return (
     <>
     
-    <nav>
+    <nav id='navbar'>
       <div className="navImg">
-        <img src="https://pbs.twimg.com/media/FK0tRN_XIAAqiKk.jpg" alt="" />
-        
+        <a href="/">
+          <img src="https://pbs.twimg.com/media/FK0tRN_XIAAqiKk.jpg" alt="" />
+        </a>
       </div>
+
       <div className="NavItems">
           <div className="MobileNav">
             <MobileNav />

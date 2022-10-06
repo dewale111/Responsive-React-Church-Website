@@ -22,6 +22,14 @@ nav{
     padding: 5px;
     cursor: pointer;
 }
+.navImg>a{
+    padding: 0;
+    text-decoration: none;
+    
+}
+.navImg>a:hover{
+    border: none;
+}
 nav img{
     height: 60px;
     width: 60px;
@@ -48,7 +56,7 @@ nav img{
     }
 
     .closeNavContainer{
-        background: rgba(5, 24, 36, 0.9) ;
+        background: rgba(30, 30, 30, 0.9) ;
         top: 5px;
         right: 0;
         height: fit-content;

@@ -20,7 +20,7 @@ const Closenav = (props) => {
           <a onClick={() =>props.isMobile && props.closeMobileMenu()} className="gall" href="/gallery">GALLERY</a>
           <a onClick={() =>props.isMobile && props.closeMobileMenu()} className="jlf" href="/messages">MESSAGES</a>
           <a onClick={() =>props.isMobile && props.closeMobileMenu()} className="prq" href="#cursor">PRAYER REQUESTS</a>
-          <a onClick={() =>props.isMobile && props.closeMobileMenu()} className="jlf" href="#cursor">JOIN THE LIVING FORCE</a>
+          <a onClick={() =>props.isMobile && props.closeMobileMenu()} className="jlf" href="/#wforce">JOIN THE LIVING FORCE</a>
         </div>
         
       </div>

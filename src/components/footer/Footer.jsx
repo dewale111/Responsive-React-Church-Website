@@ -17,19 +17,19 @@ const Footer = () => {
           <h1>Quick Links</h1>
           <li className="fListItem"><a href="/aboutus">About Us</a></li>
           <li className="fListItem"><a href="#t">Join the living force</a></li>
-          <li className="fListItem"><a href="#t">Men of Significance</a></li>
-          <li className="fListItem"><a href="#t">Women of Worth</a></li>
-          <li className="fListItem"><a href="#t">Club Extreme</a></li>
-          <li className="fListItem"><a href="#t">Solid Rock Academy</a></li>
+          <li className="fListItem"><a href="men-of-significance">Men of Significance</a></li>
+          <li className="fListItem"><a href="women-of-worth">Women of Worth</a></li>
+          <li className="fListItem"><a href="/clubxtreme">Club Extreme</a></li>
+          <li className="fListItem"><a href="/solid-rock-academy">Solid Rock Academy</a></li>
         </ul>
         
         <ul className="fList" id="qlink2">
-          <li className="fListItem"><a href="#t">Contact Us</a></li>
-          <li className="fListItem"><a href="#t">Giving</a></li>
-          <li className="fListItem"><a href="#t">Events</a></li>
+          <li className="fListItem"><a href="/contactus">Contact Us</a></li>
+          <li className="fListItem"><a href="/giving">Giving</a></li>
+          <li className="fListItem"><a href="/events">Events</a></li>
           <li className="fListItem"><a href="/gallery">Gallery</a></li>
           <li className="fListItem"><a href="#t">Prayer Request</a></li>
-          <li className="fListItem"><a href="#t">Messages</a></li>
+          <li className="fListItem"><a href="/messages">Messages</a></li>
         </ul>
       </div>
       <div className="fsocial">
