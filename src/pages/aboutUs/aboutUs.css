@@ -344,9 +344,5 @@
     .content>:nth-child(2){
         width: 100%;
     }
-    .Aheader {
-        background-image: linear-gradient(to right, rgb(89, 15, 104),rgb(89, 15, 104), rgba(100, 41, 105, 0),rgb(89, 15, 104),rgb(89, 15, 104)),url('./dapo.CR2.jpg');
-        background-position: 40% 35%;
-        
-    }
+    
   }
