@@ -12,7 +12,7 @@ const Describe = () => {
                         {<MdCheckCircleOutline
                             size="32px" color='white' />}
                         <span className='descDetails'>We are Young</span>
-                        <button className="btn">About Us</button>
+                        <a href="/aboutus"><button className="btn">About Us</button></a>
 
                     </div>
                 </div>
@@ -23,7 +23,7 @@ const Describe = () => {
                         {<MdCheckCircleOutline
                             size="32px" color='white' />}
                         <span className='descDetails'>We are Saved</span>
-                        <button className="btn">Join Us</button>
+                        <a href="#subscribe"><button className="btn">Join Us</button></a>
 
                     </div>
                 </div>
@@ -34,7 +34,7 @@ const Describe = () => {
                         {<MdCheckCircleOutline
                             size="32px" color='white' />}
                         <span className='descDetails'>We are Wordites</span>
-                        <button className="btn">Listen to Messages</button>
+                        <a href="/messages"><button className="btn">Listen to Messages</button></a>
 
                     </div>
                 </div>

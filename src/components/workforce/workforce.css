@@ -45,11 +45,62 @@
     overflow: hidden;
 }
 
+
 .WorkforceContainer .row .Wfull .unitImage {
     position: inherit;
     height: 15rem;
     width: 20rem;
     border-bottom: 5px solid purple;
+}
+.WorkforceContainer .row .Wfull .wOverlay{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(53, 51, 48);
+    width: 100%;
+    transition: .2s ease;
+    opacity: 0;
+    transform: translate(0%, 50%);
+    
+}
+.wOverlay .text{
+    color: rgb(175, 175, 172);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.wOverlay .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #2BA891;
+    margin-top: 3rem;
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 3rem;
+    border-radius: 1rem;
+    letter-spacing: 1px;    
+    font-weight: bolder;
+    
+}
+
+
+.WorkforceContainer .row .Wfull:hover .wOverlay{
+    opacity: 1;
+    transform: translate(0%, 0%);
+
 }
 
 #training {

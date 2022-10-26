@@ -6,8 +6,8 @@ const Workforce = () => {
         <>
             <div id='wforce' className="WorkforceContainer">
                 <div className="intro">
-                    <h1>Are you ready to make IMPACT?</h1>
-                    <p>Here's the place for you, Join any of the following directorates as you kickstart your journey to becoming a person of positive influence.</p>
+                    <h1>It's all about IMPACT</h1>
+                    <p> and here's the place for you. Are you talented and fun? Join any of the following directorates as you kickstart your journey to becoming a person of positive influence.</p>
                 </div>
                 <div className="wrap">
                 <div className="row">
@@ -19,6 +19,12 @@ const Workforce = () => {
                             <span>Outreach</span>
                             <button>Learn More</button>
                         </div>
+                        <div className="wOverlay">
+                            <div className="head">Outreach</div>
+                            <div className="text">
+                            Are you talented and fun? The directorate of Outreach is the place for you, contact us to get involved
+                            </div>
+                        </div>
                     </div>
                     <div className="Wfull">
                         <div className="unitImage" id='worship'>
@@ -28,6 +34,12 @@ const Workforce = () => {
                             <span>Worship</span>
                             <button>Learn More</button>
                         </div>
+                        <div className="wOverlay">
+                            <div className="head">Worship</div>
+                            <div className="text">
+                            Are you talented and fun? The directorate of Outreach is the place for you, contact us to get involved
+                            </div>
+                        </div>
                     </div>
                     <div className="Wfull">
                         <div className="unitImage" id='missions'>
@@ -36,6 +48,12 @@ const Workforce = () => {
                         <div className="unit">
                             <span>Missions</span>
                             <button>Learn More</button>
+                        </div>
+                        <div className="wOverlay">
+                            <div className="head">Missions</div>
+                            <div className="text">
+                            Are you talented and fun? The directorate of Outreach is the place for you, contact us to get involved
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -48,6 +66,12 @@ const Workforce = () => {
                             <span>Administration</span>
                             <button>Learn More</button>
                         </div>
+                        <div className="wOverlay">
+                            <div className="head">Administration</div>
+                            <div className="text">
+                            Are you talented and fun? The directorate of Outreach is the place for you, contact us to get involved
+                            </div>
+                        </div>
                     </div>
                     <div className="Wfull">
                         <div className="unitImage" id='training'>
@@ -57,6 +81,12 @@ const Workforce = () => {
                             <span>Training</span>
                             <button>Learn More</button>
                         </div>
+                        <div className="wOverlay">
+                            <div className="head">Training</div>
+                            <div className="text">
+                            Are you talented and fun? The directorate of Outreach is the place for you, contact us to get involved
+                            </div>
+                        </div>
                     </div>
                     <div className="Wfull">
                         <div className="unitImage" id='membership'>
@@ -65,6 +95,12 @@ const Workforce = () => {
                         <div className="unit">
                             <span>Membership</span>
                             <button>Learn More</button>
+                        </div>
+                        <div className="wOverlay">
+                            <div className="head">Membership</div>
+                            <div className="text">
+                            Are you talented and fun? The directorate of Outreach is the place for you, contact us to get involved
+                            </div>
                         </div>
                     </div>
                 </div>

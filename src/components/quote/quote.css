@@ -1,17 +1,21 @@
 .QuoteContainer{
     align-self: center;
-    margin: 38px;
+    position: relative;
     display: flex;
-    gap: 2rem;
+    justify-content: space-between;
+    gap: 7rem;
     padding: 0 4rem;
     padding-top: 10rem;
     padding-bottom: 10rem;
     box-shadow: 1px 1px 10px;
     overflow: hidden;
+    background-color: rgb(234, 235, 231);
+    
 
 }
 .leftQ{
     display: flex;
+    position: relative;
     flex-direction: column;
     text-transform: uppercase;
     gap: 2rem;
@@ -59,24 +63,26 @@
 }
 
 .rightQ .imagefull>:nth-child(1){
-    position: absolute;
+    position: relative;
     height: 16rem;
     width: 14rem;
     top: 1.5rem;
     right: 7.5rem;
     border: 1px solid rgb(172, 105, 157);
+    display: none;
 }
 
 .rightQ .imagefull>:nth-child(2){
-    position: absolute;
+    position: relative;
     height: 16rem;
     width: 14rem;
     top: 2.5rem;
     right: 8.5rem;
     border: 1px solid rgb(172, 105, 157);
+    display: none;
 }
 .rightQ .imagefull>img{
-    position: absolute;
+    position: relative;
     height: 16rem;
     width: 14rem;
     right: 8rem;
@@ -89,9 +95,10 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    position: absolute;
+    position: relative;
+    width: fit-content;
+    top: 5rem;
     bottom: 1rem;
-    left: 3rem;
     color: white;
     box-shadow: 1px 1px 3px;
     border-radius: 2rem;
@@ -126,8 +133,6 @@
     }
     .rightQ .arrow{
         position: relative;
-        top: 19rem;
-        left: 8rem;
-        width: 100px;
+        align-self: center;
     }
 }
