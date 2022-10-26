@@ -25,16 +25,16 @@
     color: rgb(48, 47, 47);
     font-weight: 200;
     font-size: 2rem;
+    text-align: left;
 }
-.leftQ>:nth-child(1)::after{
+.leftQ>:nth-child(1)::before{
     content: '';
-    height: 3px;
-    width: 10rem;
+    height: 6px;
+    width: 4rem;
     display: block;
     background-color: #97CD2D;
-    justify-self: center;
     position: relative;
-    left: 3rem;
+    left: 0;
     transition: 0.5s ease;
     opacity: 1;
 }
